@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: conversaotemperatura
-          image: cloudbarbosa/conversao-temperatura:v1
+          image: cloudbarbosa/conversaotemperatura:latest
           ports:
             - name: http
               containerPort: 8080
